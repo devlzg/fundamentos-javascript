@@ -52,6 +52,7 @@ const pessoa = {
         console.log(`Oi, meu nome é ${this.nome} e eu tenho ${this.idade} anos!`)
     }
 }
+pessoa.saudação()
 
 /*
     Date -> Serve para datas, mas é antigo e está entrando em desuso. A alternativa
@@ -67,7 +68,7 @@ const aniversario = new Date("2004-07-28")
 */
 const lista = [0, 1, 2, 3, 4, 5]
 lista.push(9)
-console.log(lista.indexOf(9))
+console.log("lista: " + lista)
 
 /*
     Coleções chaveadas: Maps, Sets, WeakMaps, WeakSets
