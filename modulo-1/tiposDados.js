@@ -9,9 +9,9 @@
     comportamentos próprios.
 */
 /* Tipos de declaração de variável:
-    - var: mutável e escopo global
-    - let: mutável e escopo de bloco
-    - const: imutável, bloco e exige inicialização imediata
+    - var: mutável e escopo global, sofre hoisting;
+    - let: mutável e escopo de bloco;
+    - const: imutável, bloco e exige inicialização imediata.
 */
 
 // String -> cadeia de caracteres. No módulo 4 eu falo sobre manipulação de strings. São indexadas como arrays
